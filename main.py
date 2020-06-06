@@ -19,8 +19,10 @@ class TuShare(object):
             # 获取新股信息
             self.GetNew()
         elif self.type =="index":
+            #获取指数
             self.GetIndex()
         elif self.type =="coin":
+            #获取数字货币
             self.GetCoin()
         else:
             #默认爬取历史记录
